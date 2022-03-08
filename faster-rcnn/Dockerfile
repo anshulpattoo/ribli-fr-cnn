@@ -1,5 +1,5 @@
 FROM nvidia/cuda:8.0-cudnn6-devel-ubuntu16.04
-FROM python:3-onbuild
+# FROM python:3
 LABEL maintainer caffe-maint@googlegroups.com
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
