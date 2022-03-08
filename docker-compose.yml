@@ -1,3 +1,10 @@
-faster-rcnn:
-  build: .
-  
+version: '3'
+
+services:
+  faster-rcnn:
+    build: ./faster-rcnn
+  volumes:
+    - ./faster-rcnn:/workspace/faster-rcnn
+    - ./dataset:/workspace/dataset
+    
+    
