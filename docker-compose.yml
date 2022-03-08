@@ -4,7 +4,7 @@ services:
   faster-rcnn:
     build: ./faster-rcnn/.
     volumes:
-      - "./faster-rcnn:/usr/workspace/faster-rcnn"
-      - "./dataset:/usr/workspace/dataset"
+      - "./faster-rcnn:/usr/src/faster-rcnn"
+      - "./dataset:/usr/src/dataset"
 
     
