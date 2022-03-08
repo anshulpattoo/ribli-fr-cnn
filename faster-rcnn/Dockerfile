@@ -46,3 +46,5 @@ WORKDIR $CAFFE_ROOT
 # RUN echo "$CAFFE_ROOT/build/lib" >> /etc/ld.so.conf.d/caffe.conf && ldconfig
 
 WORKDIR /workspace
+
+COPY . /workspace/
